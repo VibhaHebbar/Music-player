@@ -18,14 +18,24 @@
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
-            <img src="background.jfif" class="song-img">
-            <h1>Woman</h1>
-            <p>Doja Cat</p>
+            <img src="images\women.jfif" class="song-img">
+            <h1 id="name">Woman</h1>
+            <p id="artist">Doja Cat</p>
+        </div>
+        <div class="controlling">
+            <audio  id="songs">
+                <source src="musics\woman.mp3" type="audio/mpeg" id="song">
 
-            <audio controls>
-                <source src="woman.mp3" type="audio/mpeg">
             </audio>
             <input type="range" value="0" id="progress">
+            
+            <div class="controls">
+                <div id="backward"><i class="fa-solid fa-backward-step"></i></div>
+                <div id="play-pause"><i class="fa-solid fa-play" id="icn"></i></div>
+                <div id="forward"><i class="fa-solid fa-forward-step"></i></div>
+                
+            
+        </div>
         </div>
     </div>
    <script src="script.js"></script> 
